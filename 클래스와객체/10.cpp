@@ -1,4 +1,5 @@
 //Ramdom class
+//실습문제 5,6,7번(동일 주제)
 //짝수 홀수 선택 생성자
 #include <iostream>
 #include <string>
