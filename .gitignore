@@ -3,6 +3,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=c++,c,visualstudio,python
 
 ### personal ###
+*.
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
