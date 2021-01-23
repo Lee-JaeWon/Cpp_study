@@ -106,6 +106,7 @@ void WordGame::game() {
 		}
 		else if (res == 0) {
 			cout << endl << "끝말잇기 실패!!" << endl;
+			cout << "범인은 " << name[i] << " 입니다." << endl;
 			break;
 		}
 	}
