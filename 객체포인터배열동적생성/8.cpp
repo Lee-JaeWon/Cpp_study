@@ -77,6 +77,7 @@ void WordGame::game() {
 	cin >> num; //인원 입력
 	cout << endl;
 	Player member(num);
+
 	string* name = new string[num];
 	for (int i = 0; i < num; i++) {
 		name[i] = member.CreateMember();
@@ -107,6 +108,8 @@ void WordGame::game() {
 		else if (res == 0) {
 			cout << endl << "끝말잇기 실패!!" << endl;
 			cout << "범인은 " << name[i] << " 입니다." << endl;
+
+			delete[] name;
 			break;
 		}
 	}
