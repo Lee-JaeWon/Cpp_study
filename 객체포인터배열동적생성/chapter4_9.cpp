@@ -62,4 +62,5 @@ int main() {
 
 	cout << "전화 번호는 ";
 	cout << DB[temp].get_Tel() << endl;
+	delete[] DB;
 }
