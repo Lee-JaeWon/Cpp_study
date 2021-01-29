@@ -1,5 +1,5 @@
-// ½Ç½À ¹®Á¦ 4_9
-// °£´ÜÇÑ µ¥ÀÌÅÍº£ÀÌ½º °ü¸® ¹× °Ë»ö
+// ì‹¤ìŠµ ë¬¸ì œ 4_9
+// ê°„ë‹¨í•œ ë°ì´í„°ë² ì´ìŠ¤ ê´€ë¦¬ ë° ê²€ìƒ‰
 #include <iostream>
 #include <string>
 using namespace std;
@@ -14,8 +14,8 @@ public:
 	void set(string, string);
 };
 Person::Person() {
-	name = "ÀÌ¸§ ¹ÌÀÔ·Â";
-	tel = "¹øÈ£ ¹ÌÀÔ·Â";
+	name = "ì´ë¦„ ë¯¸ì…ë ¥";
+	tel = "ë²ˆí˜¸ ë¯¸ì…ë ¥";
 }
 string Person::get_Name() {
 	return name;
@@ -29,22 +29,22 @@ void Person::set(string name, string tel) {
 
 int main() {
 
-	cout << "ÀÌ¸§°ú ÀüÈ­ ¹øÈ£¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä" << endl << "(ÀÌ¸§ ÀÔ·Â ÈÄ ½ºÆäÀÌ½º¹Ù ÀÔ·Â ÈÄ ¹øÈ£ ÀÔ·Â)" << endl;
-	cout << "ex) ½ºÆùÁö¹ä 010-0000-0000" << endl;
+	cout << "ì´ë¦„ê³¼ ì „í™” ë²ˆí˜¸ë¥¼ ì…ë ¥í•´ ì£¼ì„¸ìš”" << endl << "(ì´ë¦„ ì…ë ¥ í›„ ìŠ¤í˜ì´ìŠ¤ë°” ì…ë ¥ í›„ ë²ˆí˜¸ ì…ë ¥)" << endl;
+	cout << "ex) ìŠ¤í°ì§€ë°¥ 010-0000-0000" << endl;
 
 	int num = 3;
 
 	Person* DB = new Person[num];
 	string name, tel;
 	for (int i = 0; i < num; i++) {
-		cout << "ÀÌ¸§ >> ";
+		cout << "ì´ë¦„ >> ";
 		getline(cin, name, ' ');
 		getline(cin, tel, '\n');
 		DB[i].set(name, tel);
 	}
 	cout << endl;
 
-	cout << "¸ğµç »ç¶÷ÀÇ ÀÌ¸§Àº ";
+	cout << "ëª¨ë“  ì‚¬ëŒì˜ ì´ë¦„ì€ ";
 	for (int i = 0; i < num; i++) {
 		cout << DB[i].get_Name();
 		cout << ' ';
@@ -52,7 +52,7 @@ int main() {
 	cout << endl;
 
 	int temp;
-	cout << endl << "ÀüÈ­¹øÈ£¸¦ °Ë»öÇÕ´Ï´Ù. ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä >> ";
+	cout << endl << "ì „í™”ë²ˆí˜¸ë¥¼ ê²€ìƒ‰í•©ë‹ˆë‹¤. ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš” >> ";
 	cin >> name;
 	for (int i = 0; i < num; i++) {
 		if (DB[i].get_Name() == name)
@@ -60,7 +60,9 @@ int main() {
 	}
 	cout << endl;
 
-	cout << "ÀüÈ­ ¹øÈ£´Â ";
+	cout << "ì „í™” ë²ˆí˜¸ëŠ” ";
 	cout << DB[temp].get_Tel() << endl;
 	delete[] DB;
+	cout << "ìˆ˜ì • ì‚¬í•­ ì¶”ê°€" << endl;
+	
 }
