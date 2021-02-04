@@ -72,7 +72,7 @@ void  Gambling_Game::Play_Game() {
 
 		char ent;
 
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < 2;) {
 			cout << name[i] << ":" << "<Enter>";
 			cin.get(ent);
 			cout << "\t\t";
@@ -90,7 +90,10 @@ void  Gambling_Game::Play_Game() {
 				}
 				else {
 					cout << "아쉽군요!" << endl;
-					if (i == 1) i = 0;
+					if (i == 0)
+						i++;
+					else
+						i = 0;
 					continue;
 				}
 			}
