@@ -3,5 +3,5 @@
 - 
 
 ### Code Overview  
-- `00.cpp` : 
+- `n.cpp` : 기본 예제 학습
 - `00.cpp` :  
