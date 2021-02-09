@@ -146,7 +146,7 @@ void Morse::morse_to_text(string morse, string& text) {
 					break;
 				}
 				else if (digit[k] == s) {
-					text += k;
+					text += k + 48;
 					break;
 				}
 				else if (slash == s) {
