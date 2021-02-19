@@ -1,4 +1,4 @@
-// Chapter 6, Example 6-8
+// Chapter 6
 // static ¸â¹ö »ç¿ë : °´Ã¼ÀÇ ¸â¹ö·Î Á¢±Ù
 #include <iostream>
 using namespace std;
