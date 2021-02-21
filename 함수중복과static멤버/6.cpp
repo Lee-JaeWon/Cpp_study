@@ -1,5 +1,5 @@
 // Chapter 6
-// static ¸â¹ö »ç¿ë : °´Ã¼ÀÇ ¸â¹ö·Î Á¢±Ù
+// static ¸â¹ö »ç¿ë : °´Ã¼ÀÇ ¸â¹ö·Î Á¢±Ù ¹× static ¸â¹ö·Î Á¢±Ù
 #include <iostream>
 using namespace std;
 
@@ -31,6 +31,8 @@ int main() {
 	Lee.money = 150;
 	Lee.add_Money(200);
 	Lee.add_Shared(200);
+	Person::shared_Money = 300;
+	Person::add_Shared(100);
 
 	cout << Han.money << ' '
 		<< Lee.money << endl;
