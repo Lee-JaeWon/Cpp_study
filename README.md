@@ -3,6 +3,10 @@
 - git 코드 수정 및 코드 관리  
  - .gitignore 사용
 
+## Advanced Programming
+- 예습&복습  
+- 과제 관련 정리  
+
 ## Chapter 정보
 - Chapter 1: C++ 시작
 - Chapter 2: C++ 프로그래밍의 기본
