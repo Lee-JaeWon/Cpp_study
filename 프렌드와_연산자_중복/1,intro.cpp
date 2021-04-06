@@ -1,3 +1,9 @@
+/*
+	Writer : 이재원
+	Study C++
+	프렌드와 연산자 중복
+*/
+
 // 연산자 작성
 #include <iostream>
 using namespace std;
