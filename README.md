@@ -4,6 +4,7 @@
  - .gitignore 사용
 
 ## Advanced Programming
+- 고급프로그래밍(2학년 1학기)수업 대비  
 - 예습&복습  
 - 과제 관련 정리  
 
