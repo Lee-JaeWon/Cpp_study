@@ -6,36 +6,33 @@ using namespace std;
 
 class Person {
 protected:
-    int age;
+    int _age;
     string job, doing;
 
     string Eat();
     string Talk();
     string Run();
 public:
-    Person(int age = 0) { this->age = age; }
+    Person(int age = 0) { this->_age = age; }
     void show_info();
 };
 
 class Professor : public Person {
-private:
-    int p_age = 38;
 public:
-    Professor();
+    Professor(const int& n_age, const string& n_job);
+    string Teach();
 };
 
 class TennisPlayer : public Person {
-private:
-    int p_age = 24;
 public:
-    TennisPlayer();
+    TennisPlayer(const int& n_age, const string& n_job);
+    string PlayTennis();
 };
 
 class Businessman : public Person {
-private:
-    int p_age = 30;
 public:
-    Businessman();
+    Businessman(const int& n_age, const string& n_job);
+    string RunBusiness();
 };
 
 #endif // HW4_H
