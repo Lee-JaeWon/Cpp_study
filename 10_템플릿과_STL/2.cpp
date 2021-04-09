@@ -1,4 +1,4 @@
-// 매개변수_타입 유의
+// 매개변수 타입 유의
 // Generic add function
 #include <iostream>
 using namespace std;
