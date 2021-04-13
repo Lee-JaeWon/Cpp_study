@@ -1,7 +1,7 @@
-/*
-	Writer : �����
+﻿/*
+	Writer : 이재원
 	Study C++
-	10. ���ø��� ǥ�� ���ø� ���̺귯��(STL)
+	10. 템플릿과 표준 템플릿 라이브러리(STL)
 */
 
 // Generic function
