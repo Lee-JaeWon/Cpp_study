@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-// 선언부
+// 선언부 
 template <class T>
 class MyStack {
 private:
