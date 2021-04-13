@@ -1,4 +1,4 @@
-// ¸Å°³º¯¼ö Å¸ÀÔ À¯ÀÇ
+ï»¿// ë§¤ê°œë³€ìˆ˜ íƒ€ì… ìœ ì˜
 // Generic add function
 #include <iostream>
 using namespace std;
