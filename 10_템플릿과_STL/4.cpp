@@ -1,8 +1,8 @@
-// Generic Class
+ï»¿// Generic Class
 #include <iostream>
 using namespace std;
 
-// ¼±¾ðºÎ 
+// ì„ ì–¸ë¶€ 
 template <class T>
 class MyStack {
 private:
@@ -15,7 +15,7 @@ public:
 };
 
 
-// ±¸ÇöºÎ
+// êµ¬í˜„ë¶€
 template <class T>
 MyStack<T>::MyStack() {
 	tos = -1;
